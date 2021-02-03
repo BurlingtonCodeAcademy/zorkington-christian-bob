@@ -10,12 +10,10 @@ function ask(questionText) {
 start();
 
 async function start() {
-  let thisConflict = 'Welcome to Git!'
   const welcomeMessage = `182 Main St.
 You are standing on Main Street between Church and South Winooski.
 There is a door here. A keypad sits on the handle.
 On the door is a handwritten sign.`;
-  console.log(thisConflict);
   let answer = await ask(welcomeMessage);
   console.log('Now write your code to make this work!');
   process.exit();
